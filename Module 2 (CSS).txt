@@ -1,0 +1,104 @@
+1. What are the benefits and disadvantages of using CSS?
+
+Ans. Cascading sheet not only simplifies website development, but also simplifies the maintenance as a change of one line of code affects the whole web site and maintenance time. It is less complex therefore the effort are significantly reduced.
+
+
+
+2. What is the difference between CSS2 and CSS3? 
+
+Ans. The biggest difference between CSS2 and CSS3 is that CSS3 is now split into different modules. Since each module makes its way through the W3C individually, there's a wider range of browser support. Make sure you test your CSS3 pages in as many browsers and operating systems as possible to ensure compatibility.
+
+
+
+3. Name a few CSS style components.
+
+Ans. The components of css style are: 1)Selecter:HTML element name, id name, class name. 2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc. 3)Values:which defines property or values allocate for properties.
+
+
+
+4. What do you understand by CSS opacity?
+
+Ans. The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+
+
+5. How can the background color of an element be changed? 
+
+Ans. To add background color in HTML, use the CSS background-color property. Set it to the color name or code you want and place it inside a style attribute. Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+
+
+6. How can image repetition of the backup be controlled?
+
+Ans. To control the repetition of an image in the background, use the background-repeat property. You can use no-repeat value for the background-repeat property if you do not want to repeat an image, in this case, the image will display only once.
+
+
+
+7. What is the use of the background-position property? 
+
+Ans. The background-position property sets the starting position of a background image. Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+
+
+
+8. Which property controls the image scroll in the background?
+
+Ans. The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+
+
+9. Why should background and color be used as separate properties? 
+
+Ans. There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+
+
+10. How to center block elements using CSS1?
+
+Ans. Approach: There are two steps to center a block-level element –
+
+	Step 1: Define the external width – We need to define the external width. Block-level elements have the default width of 100% of the webpage, so for centering the block element, we need space around it. So for generating the space, we are giving it a width.
+
+	Step 2: Set the left-margin and the right-margin of the element to auto – Since we produced a remaining space by providing external width so now we need to align that space properly that’s why we should use margin property. Margin is a property that tells how to align a remaining space. So for centering the element you must set left-margin to auto and right-margin to auto.
+ 
+
+
+
+11. What are the ways to integrate CSS as a web page?
+
+Ans. CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a <style> element in the <head> section. External - by using a <link> element to link to an external CSS file.
+
+
+
+12. What is embedded style sheets?
+
+Ans. Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document.
+
+
+
+13. What are the external style sheets? 
+
+Ans. An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+ 
+
+
+
+14. What is the meaning of the CSS selector?
+
+Ans. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+
+
+15. What are the media types allowed by CSS?
+
+Ans. CSS 2.1 defines the following media groups:
+	continuous or paged.
+	visual, audio, speech, or tactile.
+	grid (for character grid devices), or bitmap.
+	interactive (for devices that allow user interaction), or static (for those that do not).
+	all (includes all media types)
+
+
+
+16. What is the rule set?
+
+Ans. A collection of rules or signatures that network traffic or system activity is compared against to determine an action to take—such as forwarding or rejecting a packet, creating an alert, or allowing a system event.

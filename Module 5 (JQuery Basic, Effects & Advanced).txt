@@ -1,0 +1,22 @@
+What is jQuery?
+Ans. JavaScript library
+
+
+
+How to Apply CSS Using JQuery, How to Add Class and Remove Class 
+in Jquery , JQuery Animation?
+Ans. Syntax:
+
+The syntax for adding CSS classes to an element: $ ('selector').addClass (class_name);
+The syntax for Removing CSS classes to an element: $ ('selector').removeClass (class_name);
+
+
+
+How to create slider with animation?
+Ans. jQuery Code
+
+First checks, if the current image is the last image. If yes, then set curPos variable to 0 so that first image is shown again. ...
+To show next image as part of image slider, we play with the margin-left property of sliderWrapper so that next image becomes part of slider visible area. We useÂ animate Â method of jQuery which provides us the slide animation. ...
+
+
+

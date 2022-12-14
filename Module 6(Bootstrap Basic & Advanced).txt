@@ -1,0 +1,95 @@
+What are the advantages of Bootstrap?
+Ans. The Advantages of Bootstrap Development are:
+
+	1. Fewer Cross browser bugs
+	2. A consistent framework that supports major of all browsers and CSS compatibility fixes
+	3. Lightweight and customizable
+	4. Responsive structures and styles
+	5. Several JavaScript plugins using the jQuery
+	6. Good documentation and community support
+	7. Loads of free and professional templates, WordPress themes and plugins
+	8. Great grid system
+
+
+
+
+What is a Bootstrap Container, and how does it work?
+Ans. Bootstrap Containers are the most basic layout element in Bootstrap. Bootstrap Containers are very essential and basic building blocks of bootstrap that wrap a page’s content. It’s responsible for setting and aligning content within it according to viewport or given device.
+
+
+
+
+What are the default Bootstrap text settings?
+Ans. Bootstrap's Default Settings Bootstrap's global default font-size is 14px, with a line-height of 1.428. This is applied to the <body> and all paragraphs. In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default). Typography
+
+
+
+
+What do you know about the Bootstrap Grid System? 
+Ans. The Bootstrap grid system has four classes:
+
+	xs (for phones - screens less than 768px wide)
+	sm (for tablets - screens equal to or greater than 768px wide)
+	md (for small laptops - screens equal to or greater than 992px wide)
+	lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+
+
+
+What is the difference between Bootstrap 4 and Bootstrap 5
+Ans. Main Differences Between Bootstrap 4 and Bootstrap 5
+
+Extended color palette
+jQuery Deprecation
+Floating Labels
+Browser support
+Bootstrap Icons
+RTL Support
+Enhanced Grid System
+Site Generation
+
+
+
+
+What is a Button Group, and what is the class for a basic Button Group? 
+Ans. What is button group and what is the class for a basic button group? “Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally. This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+
+
+
+How can you use Bootstrap to make thumbnails?
+Ans. Bootstrap Thumbnails
+
+Add around the image with class .thumbnail of <a> label .
+This adds an inner margin of four pixels （padding） And a gray border .
+When the mouse hovers over the image , The outline of the image will be animated
+
+
+
+
+In Bootstrap 4, what is flexbox? 
+Ans. In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. This box makes it easier to design flexible responsive layout structures without using float or positioning attributes. Let's take the following examples of Bootstrap 4 FlexBox.
+
+
+
+
+How can one create an alert in Bootstrap?
+Ans. Bootstrap By Building Projects - Includes Bootstrap 4
+
+Add a basic alert by creating a wrapper <div> and adding a class of .alert and one of the four contextual classes, for example, .alert-success, .alert-info, etc.
+Also add optional .alert-dismissable to the above <div> class.
+Add a close button.
+
+
+
+
+What is a bootstrap card and how would you create one?
+Ans. Bootstrap 5 Cards
+
+Cards A card in Bootstrap 5 is a bordered box with some padding around its content. It includes options for headers, footers, content, colors, etc. John Doe ...
+Basic Card A basic card is created with the .card class, and content inside the card has a .card-body class: Basic card ...
+Header and Footer Header Content ...
+Contextual Cards ...
+Titles, text, and links ...
+Card Images ...
+Card Image Overlays ...
