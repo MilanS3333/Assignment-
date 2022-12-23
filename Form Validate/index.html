@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" placeholder="Your Name" id="fnm"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="Your Surname" id="lnm"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="Your Email" id="em"></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td><input type="number" placeholder="Your Mobile" id="mo"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio"><b>Male</b>
+                    <input type="radio" id="gn"><b>Female</b></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="text" placeholder="mm//dd//yyyy" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea cols="30" rows="10" style="height: 100px;width: 500px;"></textarea></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Area Pin:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td><select>
+                    <option hidden>!--- Select your Qualification ---!</option>
+                    <option>SCC</option>
+                    <option>HSC</option>
+                    <option>Deploma</option>
+                    <option>Degree</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Specialization:</td>
+                <td><input type="checkbox">Computer Science <br>
+                <input type="checkbox">Information Technology<br>
+                <input type="checkbox">Computer Architecture<br>
+                <input type="checkbox">Tele Communication</td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="pws"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Registered" style="padding: 5px 10px;background-color: green;color: #fff;border: none;border-radius: 3px;" id="sub" onclick="return  validateForm()"></td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
