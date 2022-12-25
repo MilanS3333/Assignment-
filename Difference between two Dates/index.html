@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+
+	<div>
+		<h1>Date Interval</h1>
+		<p>From :<input type="text" id="date1"></p>
+		<p>To :<input type="text" id="date2"></p>
+		<button id="sub" onclick="func()" type="button" class="btn btn-primary"> Calculate </button>
+		<div>
+			<h3>Date interval between<br><span id="get-date1"></span> and <span id="get-date2"></span></h3>
+			<hr>
+			<p>In years: <b id="years"></b></p>
+			<p>In months: <b id="months"></b></p>
+			<p>In weeks: <b id="weeks"></b></p>
+			<p>In days: <b id="days"></b></p>
+		</div>
+	</div>
+
+
+	<script>
+		$(function() {
+			$("#date1").datepicker();
+			var date1 = $("#date1")
+		});
+		$(function() {
+			$("#date2").datepicker();
+			var date2 = $("#date2")
+		});
+	
+
+
+		function func() {
+			date1 = new Date(date1.value);
+			date2 = new Date(date2.value);
+
+			document.getElementById('get-date1').innerHTML = date1
+			document.getElementById('get-date2').innerHTML = date2
+
+			var milli_secs = date1.getTime() - date2.getTime();
+			
+			// Convert the milli seconds to Days, weeks, months, years
+			var days = milli_secs / (1000 * 3600 * 24);
+				weeks = days/7
+				months = date1.getMonth() - date2.getMonth();
+				years = date1.getYear() - date2.getYear();
+
+			document.getElementById("days").innerHTML = Math.round(Math.abs(days));
+			document.getElementById("weeks").innerHTML = Math.round(Math.abs(weeks));
+			document.getElementById("months").innerHTML = Math.round(Math.abs(months));
+			document.getElementById("years").innerHTML = Math.round(Math.abs(years));
+		}
+	</script>
+</body>
+</html>
