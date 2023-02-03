@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row,
+        .col {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-4 fw-bold">Product info</div>
+            <div class="col fw-bold">Quantity</div>
+            <div class="col fw-bold">Price (per unit)</div>
+            <div class="col fw-bold">Price (subtotal)</div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Fortunata Window Hardware - Decorative Holdbacks - Mocha</div>
+            <div class="col"><input type="number" id="num"></div>
+            <div class="col">$<span id="price">22.99</span></div>
+            <div class="col">$<span id="subtotal">00</span></div>
+            <div class="col"><button class="btn btn-primary" onclick="resEte(num,subtotal)">Remove</button></div>
+        </div>
+        <div class="row">
+            <div class="col-4">Woven Trellis Window Hardware - Clip Rings - Bronze</div>
+            <div class="col"><input type="number" id="nUm"></div>
+            <div class="col">$<span id="price-2">12.99</span></div>
+            <div class="col">$<span id="subtotal_2">00</span></div>
+            <div class="col"><button class="btn btn-primary" onclick="resEte(nUm,subtotal_2)">Remove</button></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col"></div>
+            <div class="col fw-bold">Total Price</div>
+            <div class="col">$<span id="grandtotal">00</span></div>
+            <div class="col"><button class="btn btn-primary" onclick="total(grandtotal)">Total</button></div>
+        </div>
+    </div>
+    <script>
+        const num = document.getElementById("num");
+        const nUm = document.getElementById("nUm");
+        const pric = document.getElementById("price").innerText;
+        const pric_2 = document.getElementById("price-2").innerText;
+        const sub = document.getElementById("subtotal");
+        const sub_2 = document.getElementById("subtotal_2");
+        const btn = document.querySelectorAll("button");
+        const inp = document.querySelectorAll("input");
+        // console.log(pric);
+
+        function resEte(i, j) {
+            i.value = 0
+            j.innerText = '00'
+        }
+
+        function total(i) {
+            // i.innerText = parseFloat(sub.innerText) + parseFloat(sub_2.innerText)
+            if (sub.innerText != "" && sub_2.innerText != "") {
+                i.innerText = parseFloat(sub.innerText) + parseFloat(sub_2.innerText)
+            }
+            else if (sub.innerText != "" && sub_2.innerText == "") {
+                i.innerText = parseFloat(sub.innerText) + 00
+            }
+            else {
+                i.innerText = 00 + parseFloat(sub_2.innerText)
+            }
+        }
+
+        num.addEventListener("keyup", () => {
+            s = pric * num.value
+            sub.innerText = s
+        })
+
+        nUm.addEventListener("keyup", () => {
+            s = pric_2 * num.value
+            sub_2.innerText = s
+        })
+
+
+
+        // function grandtotal() {
+        //     document.getElementById("grandtotal").innerText = sub.innerText + sub_2.innerText
+        // }
+
+
+        // function calculateSubtotal(price, quantity) {
+        //     return price * quantity;
+        // }
+
+        // let price = 10;
+        // let quantity = 5;
+        // let subtotal = calculateSubtotal(price, quantity);
+
+        // console.log(subtotal); // Output: 50
+    </script>
+</body>
+
+</html>
