@@ -1,0 +1,52 @@
+1. What is React Js?
+Ans. The React.js framework is an open-source JavaScript framework and library developed by Facebook.
+
+
+2. What is NPM in React Js?
+Ans. npm is an abbreviation used for the node package manager. It is a package manager for JavaScript. It is the default package manager that comes with NodeJS when you install it.
+
+
+3. What is Role of Node Js in react Js?
+Ans. NodeJS is a framework of JavaScript which is mainly used for working with the backend of our application or building the backend using JavaScript, whereas ReactJS is a JavaScript front-end library. It is mainly used for building the user interface or the frontend of our application.
+
+
+4. What is CLI command In React Js?
+Ans. Video Tutorial on YouTube. If you're a developer you've probably working with a lot of different command-line interfaces (CLIs). Recently modern command-line interfaces have been becoming more interactive and more user-friendly.
+
+
+5. What is Components in React Js?
+Ans. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+
+
+6. What is Header and Content Components in React Js?
+Ans. Headers are compositions that extend standard navbar functionalities. They contain additional components like a jumbotron, sub-navbar, or image covers which serve as a containers for extra navigation elements - usually links, forms, or call-to-action buttons.
+
+
+7. How to install React Js on Windows, Linux Operating System? How to install NPM and How to check version of NPM?
+Ans. Create your React app
+	1. Open a terminal(Windows Command Prompt or PowerShell).
+	2. Create a new project folder: mkdir ReactProjects and enter that directory: cd ReactProjects .
+	3. Install React using create-react-app, a tool that installs all of the dependencies to build and run a full React.js application:
+
+	Follow the below steps to setup using npx.
+	1. Go into your desired location where you want to start your react app using 'cd' command.
+	2. Run the below command to setup React app using npx. Command: npx create-react-app my-app. That's it! Your React app is ready with a single command.
+
+	The version of npm packages installed on your computer can be found by running the npm list command. First, navigate to the root directory of your project, then run the npm list command. The output above shows the packages installed in the node_modules/ folder.
+
+
+8. How to check version of React Js?
+Ans. To check which React version is your project using you need to open the package. json. Take a look under the dependencies section. It should list all of the dependencies of your project and one of those should be React.
+
+
+9. How to change in components of React Js?
+Ans. We have to set initial state value inside constructor function and set click event handler of the element upon which click, results in changing state. Then pass the function to the click handler and change the state of the component inside the function using setState.
+
+
+10. How to Make a list view in react?
+Ans.	It requires a ListView....
+	ListView Methods:
+	1. getMetrics(): Function used to export data, primarily for analytics purposes.
+	2. scrollTo(): Function used to scroll to a given x-y offset.
+	3. scrollToEnd(): Function used to scroll the list. ...
+	4. flashScrollIndicators(): Function used to briefly show the scroll indicators.
