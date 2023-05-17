@@ -12,14 +12,12 @@ Fifth Generation: High-density transistors, superscalar architectures, multiple 
 2. What form of DATA does CPU recognizes.
 ANS.
 
-
 CPUs recognize and process digital data, which is represented in the form of binary code (0s and 1s). This binary data is processed and manipulated by the CPU to perform computations and execute instructions.
 
 
 
 3. What is the purpose of south bridge?
 ANS.
-
 
 The purpose of the south bridge is to handle input/output (I/O) functions in a computer system. It manages communication between the CPU and various peripheral devices such as USB ports, audio/video controllers, storage devices, and networking interfaces.
 

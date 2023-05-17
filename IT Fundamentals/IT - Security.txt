@@ -1,21 +1,21 @@
 1. What is computer security?
 ANS.
 
-Computer security refers to the protection of computer systems and data from unauthorized access, use, disclosure, disruption, or destruction, employing measures such as encryption, firewalls, antivirus software, and user authentication.
+Computer security refers to the protection of computer systems and data from unauthorized access, use, disclosure, disruption, or destruction.
 
 
 
 2. What are the modes of security in computer?
 ANS.
 
-The modes of security in computer systems include preventive measures (e.g., firewalls, access controls), detective measures (e.g., intrusion detection systems), corrective measures (e.g., patching, incident response), and recovery measures (e.g., data backups, disaster recovery plans).
+The modes of security in computer systems include preventive measures, detective measures, corrective measures, and recovery measures.
 
 
 
 3. What is physical security?
 ANS.
 
-Physical security refers to measures taken to protect physical assets, facilities, and resources from unauthorized access, damage, theft, or harm. It includes physical barriers, surveillance systems, access controls, and security personnel.
+Physical security refers to measures taken to protect physical assets, facilities, and resources from unauthorized access, damage, theft, or harm.
 
 
 

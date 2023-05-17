@@ -35,7 +35,8 @@ Linux is open-source, customizable, and free, with a diverse software ecosystem.
 6. What is the difference between client os and server os? 
 ANS.
 
-Client OS: Designed for individual users, focuses on providing a user-friendly interface and running applications. Server OS: Designed for hosting and managing network services, emphasizes stability, security, and efficient resource management for serving multiple clients.
+Client OS: Designed for individual users, focuses on providing a user-friendly interface and running applications.
+Server OS: Designed for hosting and managing network services, emphasizes stability, security, and efficient resource management for serving multiple clients.
 
 
 

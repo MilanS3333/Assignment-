@@ -8,14 +8,10 @@ Computer networking is the practice of connecting multiple computers and devices
 2. What are the benefits of computer connected to the network?
 ANS.
 
-Resource sharing (files, printers, etc.)
+Resource sharing
 Communication and collaboration
 Internet access
 Centralized data management
-Cost efficiency
-Enhanced productivity
-Easy software and data updates
-Improved data security and backup capabilities.
 
 
 
@@ -33,7 +29,7 @@ An IP address (Internet Protocol address) is a unique numerical identifier assig
 
 
 
-5. What are is the limitations of cat 5e?
+5. What is the limitations of cat 5e?
 ANS.
 
 Some limitations of Cat 5e (Category 5e) Ethernet cables include lower data transfer speeds compared to newer standards, limited bandwidth capacity, and shorter maximum cable lengths for optimal performance compared to Cat 6 or Cat 6a cables.
@@ -44,7 +40,7 @@ Some limitations of Cat 5e (Category 5e) Ethernet cables include lower data tran
 ANS.
 
 
-The color code for a crossover cable (used for connecting similar devices, like two computers directly) is as follows:
+The color code for a crossover cable is as follows:
 
 One end: Orange/White, Orange, Green/White, Blue, Blue/White, Green, Brown/White, Brown.
 Other end: Green/White, Green, Orange/White, Blue, Blue/White, Orange, Brown/White, Brown.
@@ -77,13 +73,10 @@ A router is a network device that connects multiple networks together and direct
 ANS.
 
 Types of routers include:
+Wired Router, Wireless Router
 
-Wired Router: Connects devices using Ethernet cables.
-Wireless Router: Provides wireless network connectivity.
 Modes of operation include:
-Home/Consumer Mode: Basic network functionality for home use.
-Enterprise/Business Mode: Advanced features for larger networks.
-Wireless Access Point Mode: Functions as a wireless access point for network connectivity.
+Home/Consumer Mode, Enterprise/Business Mode, Wireless Access Point Mode
 
 
 
