@@ -1,0 +1,47 @@
+1. What is computer security?
+ANS.
+
+Computer security refers to the protection of computer systems and data from unauthorized access, use, disclosure, disruption, or destruction, employing measures such as encryption, firewalls, antivirus software, and user authentication.
+
+
+
+2. What are the modes of security in computer?
+ANS.
+
+The modes of security in computer systems include preventive measures (e.g., firewalls, access controls), detective measures (e.g., intrusion detection systems), corrective measures (e.g., patching, incident response), and recovery measures (e.g., data backups, disaster recovery plans).
+
+
+
+3. What is physical security?
+ANS.
+
+Physical security refers to measures taken to protect physical assets, facilities, and resources from unauthorized access, damage, theft, or harm. It includes physical barriers, surveillance systems, access controls, and security personnel.
+
+
+
+4. What are the security Softwares use in computer security?
+ANS.
+
+Common security software used in computer security includes antivirus software, firewalls, intrusion detection/prevention systems (IDS/IPS), encryption software, virtual private network (VPN) software, and security management tools.
+
+
+
+5. What is firewall and its types?
+ANS.
+
+A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Types of firewalls include packet-filtering firewalls, stateful inspection firewalls, application-level gateways, and next-generation firewalls.
+
+
+
+6. What is the difference between physical firewall and software firewall?
+ANS.
+
+
+A physical firewall is a hardware device placed between networks to control traffic, while a software firewall is a program installed on a computer or server that monitors and filters network traffic locally.
+
+
+
+7. What is application software security in OS?
+ANS.
+
+Application software security in an operating system refers to the measures and mechanisms implemented to protect applications from security threats, such as vulnerabilities, unauthorized access, data breaches, and malicious attacks. This can include secure coding practices, access controls, encryption, and regular software updates.

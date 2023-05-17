@@ -1,0 +1,144 @@
+1. List out the 5 main generations of CPU and technology used in it.
+ANS.
+
+First Generation: Vacuum tubes.
+Second Generation: Transistors, magnetic cores.
+Third Generation: Integrated circuits (ICs).
+Fourth Generation: Very Large Scale Integration (VLSI).
+Fifth Generation: High-density transistors, superscalar architectures, multiple cores.
+
+
+
+2. What form of DATA does CPU recognizes.
+ANS.
+
+
+CPUs recognize and process digital data, which is represented in the form of binary code (0s and 1s). This binary data is processed and manipulated by the CPU to perform computations and execute instructions.
+
+
+
+3. What is the purpose of south bridge?
+ANS.
+
+
+The purpose of the south bridge is to handle input/output (I/O) functions in a computer system. It manages communication between the CPU and various peripheral devices such as USB ports, audio/video controllers, storage devices, and networking interfaces.
+
+
+
+4. Why North Bridge is important?
+ANS.
+
+The North Bridge is important because it serves as a communication hub between the CPU and high-speed components such as RAM (memory) and the graphics card, enabling faster data transfer and optimizing system performance.
+
+
+
+5. What is BIOS?
+ANS.
+
+BIOS stands for Basic Input/Output System. It is firmware embedded on a computer's motherboard that initializes hardware components, performs system checks, and provides a low-level interface for the operating system to boot up.
+
+
+
+6. What is Primary memory?
+ANS.
+
+Primary memory, also known as main memory or RAM (Random Access Memory), is the computer's immediate storage area that temporarily holds data and instructions that the CPU is actively working on.
+
+
+
+7. What is main memory?
+ANS. 
+
+Main memory, also referred to as primary memory or RAM (Random Access Memory), is the primary storage area in a computer system where data and instructions are temporarily stored for immediate access by the CPU.
+
+
+
+8. What is DIMM and SODIMM.
+ANS.
+
+DIMM (Dual In-Line Memory Module) and SODIMM (Small Outline Dual In-Line Memory Module) are types of memory modules used in computers. DIMMs are larger and commonly used in desktops and servers, while SODIMMs are smaller and typically used in laptops and small form factor devices.
+
+
+
+9. What is cache memory?
+ANS.
+
+Cache memory is a small, high-speed memory located close to the CPU. It stores frequently accessed data and instructions to reduce the latency of accessing main memory, thus improving the overall performance of the system.
+
+
+
+10. What is RAM and ROM?
+ANS.
+
+RAM (Random Access Memory) is a type of volatile memory that stores data and instructions that the CPU actively uses. ROM (Read-Only Memory) is non-volatile memory that contains permanent instructions or data and cannot be modified.
+
+
+
+11. What is motherboard? 
+ANS.
+
+A motherboard is the main circuit board of a computer system. It provides a platform for connecting various components such as the CPU, memory, storage, and peripheral devices, allowing them to communicate and work together.
+
+
+
+12. What is daughter board?
+ANS.
+
+A daughter board, also known as an expansion board or daughter card, is a circuit board that attaches to the main motherboard. It expands the functionality of the main board by providing additional features or connectors for specific purposes.
+
+
+13. Memory :
+ANS. 
+
+1.1 KB is equal to 1,100 bytes.
+2.1 MB is equal to 2,100,000 bytes.
+3.8 bits is equal to 0.475 bytes.
+4.1 TB is equal to 4,100,000,000,000 bytes or 4.1 trillion bytes.
+5.976 MB is equal to 5,976,000 bytes.
+6.20 PB is equal to 6,200,000,000,000,000 bytes or 6.2 quadrillion bytes.
+
+
+
+14. What are the version of USB port?
+ANS.
+
+The versions of USB ports include USB 1.0, USB 2.0, USB 3.0, USB 3.1, USB 3.2, and USB 4.0. Each version offers different data transfer speeds and features.
+
+
+
+15. What is numbering system?
+ANS.
+
+A numbering system is a way of representing numbers using a set of symbols or digits. Common numbering systems include decimal (base-10), binary (base-2), octal (base-8), and hexadecimal (base-16).
+
+
+
+16. 10101 convert the number from binary to octal and binary to hexadecimal.
+ANS.
+
+10101 in binary to:
+
+Octal: 25
+Hexadecimal: 15
+
+
+
+17. what are the file structure of windows operating system.
+ANS.
+
+
+The file structure of Windows operating system typically includes the following components: File Allocation Table (FAT), New Technology File System (NTFS), Master File Table (MFT), and Registry (contains system settings and configuration).
+
+
+
+18. what are the file structure of Linux operating system.
+ANS.
+
+The file structure of a Linux operating system typically follows a hierarchical tree-like structure called the Linux File System Hierarchy. It includes directories such as /bin, /etc, /home, /usr, and /var for organizing system files, user files, executables, configurations, and more.
+
+
+
+19. what are the file structure of mac operating system.
+ANS.
+
+The file structure of macOS, the operating system used on Mac computers, is based on the UNIX-like file system. It includes directories such as /Applications, /Library, /System, and /Users for organizing applications, libraries, system files, and user files, respectively.

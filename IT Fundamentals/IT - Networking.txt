@@ -1,0 +1,135 @@
+1. What is computer networking?
+ANS.
+
+Computer networking is the practice of connecting multiple computers and devices together to facilitate the exchange of data and resources. It enables communication, data sharing, and collaboration among users and devices within a networked environment.
+
+
+
+2. What are the benefits of computer connected to the network?
+ANS.
+
+Resource sharing (files, printers, etc.)
+Communication and collaboration
+Internet access
+Centralized data management
+Cost efficiency
+Enhanced productivity
+Easy software and data updates
+Improved data security and backup capabilities.
+
+
+
+3. What is the router and define its function?
+ANS.
+
+A router is a network device that connects multiple networks together and directs network traffic between them. It forwards data packets based on their destination IP addresses, enabling communication between different networks and facilitating internet connectivity.
+
+
+
+4. What is an ip address and its use?
+ANS. 
+
+An IP address (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network. It is used to identify and locate devices on the network, enabling data routing and communication between them.
+
+
+
+5. What are is the limitations of cat 5e?
+ANS.
+
+Some limitations of Cat 5e (Category 5e) Ethernet cables include lower data transfer speeds compared to newer standards, limited bandwidth capacity, and shorter maximum cable lengths for optimal performance compared to Cat 6 or Cat 6a cables.
+
+
+
+6. What is the color code or cross cable?
+ANS.
+
+
+The color code for a crossover cable (used for connecting similar devices, like two computers directly) is as follows:
+
+One end: Orange/White, Orange, Green/White, Blue, Blue/White, Green, Brown/White, Brown.
+Other end: Green/White, Green, Orange/White, Blue, Blue/White, Orange, Brown/White, Brown.
+
+
+
+7. What is single mode fiber and multimode fiber?
+ANS.
+
+Single-mode fiber (SMF) is an optical fiber designed to transmit a single mode of light, allowing for longer transmission distances with higher bandwidth. Multimode fiber (MMF) supports multiple modes of light, typically used for shorter distances with lower bandwidth requirements.
+
+
+
+8. What devices are used in network distribution?
+ANS.
+
+
+Devices used in network distribution include switches, routers, access points, network hubs, network bridges, and network repeaters/extenders. These devices facilitate the distribution and management of network traffic and connectivity within a network infrastructure.
+
+
+
+9. What is router?
+ANS.
+
+A router is a network device that connects multiple networks together and directs network traffic between them. It uses routing protocols and forwarding tables to determine the optimal path for data packets to reach their destination.
+
+
+
+10. List out types of router and its modes.
+ANS.
+
+Types of routers include:
+
+Wired Router: Connects devices using Ethernet cables.
+Wireless Router: Provides wireless network connectivity.
+Modes of operation include:
+Home/Consumer Mode: Basic network functionality for home use.
+Enterprise/Business Mode: Advanced features for larger networks.
+Wireless Access Point Mode: Functions as a wireless access point for network connectivity.
+
+
+
+11. What is network card and its types?
+ANS.
+
+A network card, also known as a network interface card (NIC) or network adapter, is a hardware component that enables a computer to connect to a network. Types of network cards include Ethernet cards, Wi-Fi cards, and fiber optic cards.
+
+
+
+12. In which slot does network card is installed.
+ANS.
+
+A network card is typically installed in an expansion slot on a computer's motherboard. The most common slot used for network card installation is a PCIe (Peripheral Component Interconnect Express) slot, although older systems may use PCI or ISA slots.
+
+
+
+13. What is USB?
+ANS.
+
+
+USB (Universal Serial Bus) is a widely used standard for connecting devices to a computer. It allows for the transfer of data and power between devices, providing a convenient and versatile interface for various peripherals such as keyboards, mice, printers, storage devices, and more.
+
+
+
+14. What are the major differences between the internet and intranet.
+ANS.
+
+
+The major differences between the internet and intranet are:
+
+Internet is a global network accessible to the public, while an intranet is a private network accessible only to authorized individuals within an organization.
+Internet connects multiple networks worldwide, while an intranet is limited to a specific organization or company.
+Internet is publicly accessible, while intranet is behind firewalls and requires authentication for access.
+Internet is used for global communication and accessing public information, while intranet is used for internal communication, collaboration, and sharing of resources within an organization.
+
+
+
+15. What is bandwidth?
+ANS.
+
+Bandwidth refers to the maximum data transfer rate or capacity of a network connection. It represents the amount of data that can be transmitted in a given time period and is typically measured in bits per second (bps) or multiples thereof (Mbps, Gbps).
+
+
+
+16. What is cyber security?
+ANS.
+
+Cybersecurity involves protecting computer systems, networks, and data from digital threats, such as unauthorized access, data breaches, malware attacks, and other cybercrimes, through the implementation of security measures and practices.
